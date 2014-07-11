@@ -10,12 +10,12 @@ using System.Drawing.Printing;
 
 namespace PrintTextInSpecificLocation
 {
-    public partial class Form1 : Form
+    public partial class PrintingForm : Form
     {
         private Font printFont1;
         string strPrintText;
 
-        public Form1()
+        public PrintingForm()
         {
             InitializeComponent();
         }
